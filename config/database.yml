@@ -15,7 +15,7 @@ development:
   database: sensors_admin_panel_development
   pool: 5
   username: root
-  password: 
+  password: sijuca43
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: sensors_admin_panel_test
   pool: 5
   username: root
-  password: 
+  password: sijuca43
   host: localhost
 
 production:
@@ -38,5 +38,5 @@ production:
   database: sensors_admin_panel_production
   pool: 5
   username: root
-  password: 
+  password: sijuca43
   host: localhost
