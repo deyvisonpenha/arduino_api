@@ -18,8 +18,14 @@ test:
   database: "database_test"
 
 production:
-  <<: *default
-  database: "database_production"
+  adapter: postgresql
+  encoding: unicode
+  ool: 5
+  username: tdrtnfiunrvahk
+  username: tdrtnfiunrvahk
+  database: ddsctu7jn67vn2
+  port: 5432
+  host: ec2-54-221-207-192.compute-1.amazonaws.com
 
 
 # MySQL.  Versions 4.1 and 5.0 are recommended.
